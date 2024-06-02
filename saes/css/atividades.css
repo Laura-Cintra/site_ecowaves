@@ -1,0 +1,32 @@
+/* Import Kodchasan font */
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Kodchasan:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+/* Import EB Garamond font */
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap');
+
+body {
+    font-family: "Kodchasan", sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f3f4;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding: 10px 20px;
+    border-bottom: 1px solid #005f6b;
+    margin-bottom: 20px;
+}
+
+
+nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #06303A;
+    font-weight: 600;
+}
+
+
