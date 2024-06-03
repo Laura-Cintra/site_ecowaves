@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Kodchasan:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    border-bottom: 1px solid #005f6b;
+    font-weight: 600;
+    font-family: "Kodchasan", sans-serif;
+}
+
+header nav {
+    display: flex;
+    gap: 40px;
+}
+
+header nav a {
+    color: #06303A;
+    text-decoration: none;
+}
+
+header nav a:hover{
+    color: #186B8C;
+}
+
+footer{
+    margin-top: 30px;
+    max-height: 184px;
+    width: 100%;
+    background: #186B8C;
+    text-align: center;
+    font-family: "Kodchasan", sans-serif;
+}
+
+footer img{
+    margin-top: 10px;
+    margin-left: 16px;
+}
+footer ul{
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+footer li {
+    display: inline-block;
+}
+footer a {
+    text-decoration: none;
+    color: #fff;
+}
+
+#copyright img{
+    margin: 0;
+}
+
+#copyright p{
+    display: inline-block;
+    color: #B7B4BF;
+    font-size: 14px;
+}
+#copyright{
+    margin-top: 10px;
+}
+
+@media (max-width: 800px){
+    header nav {
+        display: flex;
+    }
+    header nav a{
+        font-size: 0.7rem;
+    }
+}
+
+@media (max-width: 730px) {
+    header nav {
+        display: flex;
+        justify-content: space-around;
+        gap: 10;
+    }
+    header nav a{
+        font-size: 0.6rem;
+    }
+}
+
+@media (max-width: 600px) {
+    header {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    header nav {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        margin-top: 20px;
+    }
+    
+    header nav a{
+        font-size: 0.9rem;
+    }
+
+    footer ul{
+        font-size: 10px;
+    }
+}
+
+@media (max-width: 480px) {
+    header nav{
+        margin: 0;
+    }
+
+    header nav{
+        display: flex;
+        flex-wrap: wrap;
+        text-align: center;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    header nav a{
+        font-size: 1.5rem;
+        width: 100%;    
+    }
+}
