@@ -1,0 +1,234 @@
+@import url('https://fonts.googleapis.com/css2?family=Kodchasan:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&family=Oswald:wght@200..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Kodchasan:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&family=Oswald:wght@200..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #F3F4F6;
+}
+main{
+    padding-left: 40px;
+}
+
+#titulo span{
+    color: #06303A;
+    font-size: 85px;
+    font-family: "Kodchasan", sans-serif;
+    border-radius: 10px;
+}
+#titulo{
+    margin-top: 40px;
+    font-family: "Kodchasan", sans-serif;
+    font-size: 45px;
+}
+#texto-apresentacao{
+    padding-left: 60px;
+    padding-right: 50px;
+    font-family: "EB Garamond", serif;
+    font-size: 20px;
+}
+
+.ongs{
+    max-width: 505px;
+    max-height: 466px;
+    background-color: #fff;
+    border-radius: 20px;
+    box-shadow: 15px 8px 2px #06303A;
+    margin-bottom: 20px;
+    padding-left: 40px;
+}
+
+#primeiro{
+    margin-left: 40px;
+}
+.container-ongs{
+    font-family: "EB Garamond", serif;
+    margin-top: 20px;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content:space-around;
+}
+.principal-ong{
+    padding-top: 25px;
+    display: flex;
+}
+.principal-ong h2 {
+    font-size: 28px;
+}
+.principal-ong img{
+    max-width: 90px;
+    max-height: 90px;
+}
+.principal-ong :nth-child(2) {
+    align-self: center;
+    padding-left: 22px;
+}
+.itens p{
+    padding-top: 12px;
+    padding-right: 20px;
+    font-size: 19px;
+    /* width: ; */
+}
+.icon-tema{
+    padding-top: 30px;
+    display: flex;
+    margin: -10px;
+    font-weight: 600;
+}
+
+.icon-tema :nth-child(2) {
+    align-self: center;
+    padding-top: 5px;
+    padding-left: 10px;
+} 
+.dado{
+    padding-left: 10px;
+    font-size: 22px;
+}
+#ultimo{
+    padding-bottom: 25px;
+}
+
+.hero {
+    background-image: url('../img/ongs/ondas-do-mar\ 1.png');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    font-family:"Kodchasan", sans-serif;;
+    text-align: center;
+    padding: 100px 20px;
+    margin-left: -50px;
+    margin-top: 30px;
+}
+.hero-content{
+    padding-top: 20px;
+    padding-bottom: 80px;
+    width: 75%;
+    margin: 0 auto;
+    background-color: rgba(0,0,0,0.5);
+    border-radius: 50px;
+}
+
+.hero-content p {
+    font-size: 30px;
+    padding-top: 50px;
+    margin: auto;
+    width: 600px;
+}
+.hero-content button {
+    background-color: #06303A;
+    border: none;
+    margin-top: 20px;
+    padding: 15px 25px;
+    border-radius: 10px;
+    font-size: 1em;
+    cursor: pointer;
+}
+.hero-content button a{
+    text-decoration: none;
+    color: #fff;
+}
+.hero-content button a:hover{
+    color: #186B8C;
+}
+
+/* responsividade */
+@media screen and (max-width:1170px){
+    .ongs{
+        max-width: 305px;
+        max-height: 466px;
+        padding-left: 15px;
+    }
+
+    .principal-ong h2 {
+        font-size: 22px;
+    }
+    .principal-ong img{
+        max-width: 70px;
+        max-height: 70px;
+    }
+    .itens p{
+        font-size: 16px;
+    }
+    .icon-tema{
+        padding-left: 15px;
+    }
+    .dado{
+        font-size: 18px;
+    }
+}
+@media screen and (max-width:1117px){
+    .ongs{
+        max-width: 350px;
+    }
+}
+@media screen and (max-width:990px) {
+    #titulo span{
+        font-size: 40px;
+    }
+    #titulo{
+        font-size: 35px;
+    }
+    #texto-apresentacao{
+        padding-left: 40px;
+        font-size: 17px;
+    }
+}
+@media screen and (max-width:863px) {
+    #titulo span{
+        font-size: 30px;
+    }
+    #titulo{
+        font-size: 25px;
+    }
+    #texto-apresentacao{
+        padding-left: 40px;
+        font-size: 16px;
+    }
+}
+@media screen and (max-width:873px) {
+    .hero-content p {
+        font-size: 18px;
+        width: 300px;
+    }
+    .hero-content button{
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width:677px) {
+    #texto-apresentacao{
+        padding-left: 40px;
+    }
+}
+@media screen and (max-width: 573px){
+    #texto-apresentacao{
+        padding-left: 20px;
+    }
+}
+
+@media screen and (max-width:500px){
+    .ongs{
+        max-width: 280px;
+    }
+    .container-ongs{
+        margin-right: 80px;
+    }
+}
+
+@media (max-width: 480px) {
+    .hero-content{
+        width: 100%;
+    }
+    .hero-content button {
+        padding: 8px 16px;
+    }
+}
+

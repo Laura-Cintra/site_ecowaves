@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Kodchasan:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&family=Oswald:wght@200..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Kodchasan:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&family=Oswald:wght@200..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* padding-left: 10px; */
+}
+body{
+    background-color: #F3F4F6;
+}
+
+.verifica-cnpj, .inscricao-atividade{
+    padding-left: 70px;
+}
+#titulo span, #subtitulo span{
+    color: #06303A;
+    font-size: 85px;
+    font-family: "Kodchasan", sans-serif;
+    border-radius: 10px;
+}
+#titulo, #subtitulo{
+    margin-top: 40px;
+    font-family: "Kodchasan", sans-serif;
+    font-size: 45px;
+}
+.verifica-cnpj h2{
+    font-size: 26px;
+    margin-top: 40px;
+    font-family: "EB Garamond", serif;
+}
+#id-cnpj{
+    margin-top: 20px;
+}
+label {
+    font-size: 18px;
+    font-family: "EB Garamond", serif;
+    padding-right: 10px;
+}
+input, textarea{
+    font-family: "EB Garamond", serif;
+    margin-bottom: 15px;
+    height: 30px;
+    width: 300px;
+    border-radius: 5px;
+    border: 2px solid #E0E0E0;
+    outline: none;
+    font-size: 16px;
+    padding: 5px;
+}
+#textarea{
+   text-align: center;
+}
+textarea{
+    margin: 0;
+    height: 80px;
+    padding-top: 25px;
+    margin-bottom: 10px;
+}
+
+#id-nome{
+    margin-top: 30px;
+}
+
+.btn-enviar{
+    display: block;
+    margin: auto;
+    width: 200px;
+    height: 50px;
+    background-color: #06303A;
+    color: #fff;
+    font-size: 22px;
+    border-radius: 8px;
+    cursor:pointer;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+}
+.container label {
+    margin-right: 10px;
+    margin-top: -50px;
+}
+
+#id-hora{
+    width: 150px;
+}
+
+/* responsivilidade */
+
+@media screen and (max-width:780px) {
+    #titulo span, #subtitulo span{
+        font-size: 50px;
+    }
+    #titulo, #subtitulo{
+        font-size: 30px;
+    }
+    .verifica-cnpj h2{
+        font-size: 20px;
+    }
+    label {
+        font-size: 16px;
+    }
+    input, textarea{
+        width: 150px;
+        font-size: 11px;
+    }
+    textarea{
+        height: 60px;
+    }
+    .btn-enviar{
+        width: 100px;
+        height: 42px;
+        font-size: 14px;
+    }
+}
+@media screen and (max-width:655px) {
+    #titulo, #subtitulo{
+        font-size: 26px;
+    }
+}
+@media screen and (max-width:578px) {
+    #titulo, #subtitulo{
+        font-size: 24px;
+    }
+    .verifica-cnpj h2{
+        font-size: 17px;
+    }
+    label {
+        font-size: 15px;
+    }
+    textarea{
+        width: 120px;
+    }
+    .btn-enviar{
+        width: 86px;
+        height: 38px;
+        font-size: 12px;
+    }
+    #id-hora{
+        width: 100px;
+    }
+}
+@media screen and (max-width:508px){
+    input[type="file"]{
+        width: 140px;
+    }
+}
