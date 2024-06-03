@@ -1,0 +1,165 @@
+/* Import Kodchasan font */
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Kodchasan:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+/* Import EB Garamond font */
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap');
+
+body {
+    font-family: "Kodchasan", sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f3f4;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding: 10px 20px;
+    border-bottom: 1px solid #005f6b;
+    margin-bottom: 20px;
+}
+
+
+nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #06303A;
+    font-weight: 600;
+}
+
+main {
+    background-image: url('../img/fundo_contato.png');
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: left bottom;
+}
+
+h1 {
+    color: #010303;
+    font-size: 3em;
+    margin-bottom: 10px;
+    border-left: 3px solid #14434e;
+    border-radius: 3px;
+    padding-left: 5px;
+    margin-left: 8rem;
+}
+
+form {
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 600px;
+    margin: auto 0 auto 40%;
+}
+
+label {
+    font-size: 2.5em;
+    display: block;
+    margin: 15px 0 5px;
+    color: #010303;
+    font-family: "EB Garamond", serif;
+}
+
+input, textarea {
+    width: calc(100% - 20px);
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    box-sizing: border-box;
+    box-shadow: 1px 3px 5px rgba(97, 96, 96, 0.527);
+    margin-bottom: 10px;
+    font-family: "Kodchasan" , sans-serif;
+}
+
+textarea{
+    height: 100px;
+}
+
+.rating {
+    display: flex;
+    align-items: center;
+}
+
+#id_rating { 
+    box-shadow: none;
+}
+
+.rating span {
+    margin-left: 10px;
+    font-size: 1.2em;
+    color: #1f3d44;
+}
+
+button {
+    background-color: rgb(28, 54, 59);
+    color: white;
+    border: none;
+    padding: 15px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    width: 50%;
+    box-sizing: border-box;
+    margin-left: 23%;
+}
+
+button:hover {
+    background-color: #14434e;
+}
+
+footer {
+    background-color: #186B8C;
+    color: white;
+    text-align: center;
+    align-items: center;
+    height: 100px;
+    padding-top: 10px;
+    
+}
+
+.footer-content {
+    max-width: 500px;
+    margin: auto;
+}
+
+.footer-content a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+.footer-content p {
+    margin-top: 10px;
+}
+
+.footer-icon a {
+   margin: 0 10px
+}
+
+
+
+/* 
+#bg__contato {
+    position: absolute;
+    bottom: 0;
+    z-index: -1;
+}
+
+.input__area {
+    display: flex;
+    justify-content: end;
+    max-width: 50%;
+}
+
+label {
+    font-family: "EB Garamond", serif;
+    font-size: 40px;
+    margin-bottom: 1rem;
+}
+
+input {
+    border: none;
+    box-shadow: 3px 3px 5px rgb(114, 113, 113);
+    border-radius: 5px;
+} */
