@@ -11,26 +11,8 @@ body {
     background-color: #f2f3f4;
 }
 
-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: white;
-    padding: 10px 20px;
-    border-bottom: 1px solid #005f6b;
-    margin-bottom: 20px;
-}
-
-
-nav a {
-    margin: 0 15px;
-    text-decoration: none;
-    color: #06303A;
-    font-weight: 600;
-}
-
 main {
-    background-image: url('../img/fundo_contato.png');
+    background-image: url('../img/contato/fundo_contato.png');
     background-size: auto;
     background-repeat: no-repeat;
     background-position: left bottom;
@@ -107,59 +89,3 @@ button {
 button:hover {
     background-color: #14434e;
 }
-
-footer {
-    background-color: #186B8C;
-    color: white;
-    text-align: center;
-    align-items: center;
-    height: 100px;
-    padding-top: 10px;
-    
-}
-
-.footer-content {
-    max-width: 500px;
-    margin: auto;
-}
-
-.footer-content a {
-    color: white;
-    margin: 0 10px;
-    text-decoration: none;
-}
-
-.footer-content p {
-    margin-top: 10px;
-}
-
-.footer-icon a {
-   margin: 0 10px
-}
-
-
-
-/* 
-#bg__contato {
-    position: absolute;
-    bottom: 0;
-    z-index: -1;
-}
-
-.input__area {
-    display: flex;
-    justify-content: end;
-    max-width: 50%;
-}
-
-label {
-    font-family: "EB Garamond", serif;
-    font-size: 40px;
-    margin-bottom: 1rem;
-}
-
-input {
-    border: none;
-    box-shadow: 3px 3px 5px rgb(114, 113, 113);
-    border-radius: 5px;
-} */
