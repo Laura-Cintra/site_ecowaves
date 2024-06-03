@@ -153,7 +153,7 @@ h2 > span {
     font-family: 'EB Garamond', serif;
     font-size: 24px;
     text-wrap: wrap;
-    max-width: calc(80% - 100px);
+    max-width: calc(100% - 100px);
 }
 
 .info p:nth-of-type(1){
@@ -181,6 +181,16 @@ button:hover {
 }
 
 @media (max-width: 1200px){
+    
+    .hero-text {
+        max-width: calc(100% - 200px);
+        font-size: 2rem;
+    }
+
+    .hero-text p {
+        font-size: 1.5rem;
+    }
+    
     .content {
         flex-direction: column;
     }
@@ -191,21 +201,52 @@ button:hover {
         width: 400px;
     }
 
-    .categorias h3 {
-        text-align: center;
+    .opportunity {
+        margin: 20px auto;
+        max-width: calc(100% - 200px);
     }
 }
 
 @media (max-width: 1020px) {
     .hero-text {
-        max-width: 800px;
-        font-size: 25px;
+        max-width: calc(100% - 50px);
+        font-size: 1.5rem;
+    }
+
+    .hero-text p {
+        font-size: 1.5rem;
     }
 }
 
 @media (max-width: 860px) {
     .hero-text {
-        max-width: calc(100% - 200px);
-        font-size: 20px;
+        max-width: calc(100% - 100px);
+        font-size: 1.5rem;
     }
+
+    .hero-text p{
+        font-size: 1.2rem;
+    }
+
+    .opportunity {
+        flex-direction: column;
+    }
+
+    .opportunity img{
+        width: auto;
+        object-fit: cover;
+    }
+}
+
+
+@media (max-width: 630px){
+    .hero-text{
+        font-size: 1rem;
+        max-width: calc(100% - 100px);
+    }
+
+    .opportunity {
+        max-width: fit-content;
+    }
+
 }
