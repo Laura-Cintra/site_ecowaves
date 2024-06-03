@@ -7,7 +7,7 @@ body {
     box-sizing: border-box;
 }
 
-header {
+/* header {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -30,7 +30,7 @@ main {
     padding: 20px;
     width: 90%;
     margin: 0 auto;
-}
+} */
 
 h1 > span{
     color: #186B8C;
