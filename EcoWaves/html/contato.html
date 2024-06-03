@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="../css/contato.css">
     <link rel="stylesheet" href="../css/nav_footer.css">
     <script src="../js/script-menu.js" defer></script>
+    <script src="../js/script-contato.js" defer></script>
   </head>
   <body>
     <header>
@@ -50,10 +51,10 @@
         <label for="message">Como podemos te ajudar?</label>
         <textarea id="message" placeholder="Digite aqui"></textarea>
 
-        <label for="rating">Está gostando do nosso site?</label>
+        <label for="rating">Qual nota você daria para nosso site  ?</label>
         <div class="rating">
-          <input type="range" id="id_rating" min="0" max="10" value="10" />
-          <span>10</span>
+          <input type="range" id="id_rating" min="1" max="10"/>
+          <span class="contador">10</span>
         </div>
 
         <button type="submit">ENVIAR</button>
