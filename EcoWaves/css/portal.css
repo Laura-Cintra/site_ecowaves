@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Kodchasan:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Kodchasan", sans-serif;
+}
+
+body{
+    background-color: #F3F4F6;
+}
+
+main{
+    margin-top: 30px;
+}
+
+h1 > span{
+    color: #186B8C;
+}
+
+h1, h2{
+    text-align: center;
+    padding: 10px;
+}
+
+h1{
+    font-size: 2.2rem;
+    letter-spacing: 2px;
+}
+
+h2{
+    font-weight: 400;   
+}
+
+.apresentacao > p, .cards > section > p{
+    font-family: "EB Garamond", serif;
+    font-weight: 500;
+}
+
+.apresentacao{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    flex-wrap: wrap;
+}
+
+.apresentacao > p{
+    margin: 30px;
+    text-align: justify;
+    font-size: 1.5rem;
+    width: 600px;
+    line-height: 1.5em;
+}
+
+.apresentacao > img{
+    max-width: 500px;
+    margin: 0 20px 0 50px;
+    border-radius: 50%;
+}
+
+.imgclass{
+    display: flex;
+    justify-content: center;
+}
+
+.imgclass img{
+    width: 100%;
+    margin: 0;
+}
+
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.cards > section{
+    max-width: 40%;
+    margin: 20px;   
+}
+
+section > h2{
+    text-align: left;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+h2 > span{
+    color: #186B8C;
+    font-weight: bold;
+}
+
+.cards h3, img, p{
+    margin-left: 10px;
+}
+
+.cards h3, p{
+    margin: 10px;
+}
+
+.cards p{
+    font-size: 1.1rem;
+    font-weight: 450;
+}
+
+h3{
+    font-family: "EB Garamond", serif;
+    font-size: 1.5rem;
+    font-weight: 550;
+    letter-spacing: 1px;
+}
+
+@media (max-width: 800px){
+    .cards > section{
+        max-width: 90%;
+    }
+
+}
+
+@media (max-width: 600px) {
+
+    .apresentacao img{
+
+        width: 100%;
+        margin: 0;
+
+    }
+}
+
