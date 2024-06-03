@@ -1,28 +1,58 @@
 @import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Kodchasan:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
 
-header{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px 20px;
+/* MENU */
+header {
+    background-color: #fff;
     border-bottom: 1px solid #005f6b;
     font-weight: 600;
-    font-family: "Kodchasan", sans-serif;
 }
 
-header nav {
+.logo{
+    margin-left: -50px;
+}
+.nav-bar {
     display: flex;
-    gap: 40px;
+    justify-content: space-between;
+    padding: 1.5rem 6rem;
 }
 
-header nav a {
-    color: #06303A;
+.nav-list {
+    display: flex;
+    align-items: center;
+    margin-right: -90px;
+}
+
+.nav-list ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+.nav-item {
+    margin: 0 15px;
+}
+
+.nav-link {
     text-decoration: none;
+    color: #06303A;
 }
-
-header nav a:hover{
+.nav-link:hover {
     color: #186B8C;
 }
+
+.mobile-menu-icon{
+    margin-top: 15px;
+}
+
+.mobile-menu-icon {
+    display: none;
+}
+
+.mobile-menu {
+    display: none;
+}
+
+/* FOOTER */
 
 footer{
     margin-top: 30px;
@@ -44,6 +74,7 @@ footer ul{
 
 footer li {
     display: inline-block;
+    margin-left: 15px;
 }
 footer a {
     text-decoration: none;
@@ -63,63 +94,65 @@ footer a {
     margin-top: 10px;
 }
 
-@media (max-width: 800px){
-    header nav {
+@media screen and (max-width:965px){
+    .nav-bar {
+        padding: 1.5rem 4rem;
+    }
+    .nav-item {
+        display: none;
+    }
+    .mobile-menu-icon {
+        display: block;
+    }
+    .mobile-menu-icon button {
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+    }
+    .mobile-menu ul {
         display: flex;
-    }
-    header nav a{
-        font-size: 0.7rem;
-    }
-}
+        flex-direction: column;
+        text-align: center;
+        padding-bottom: 1rem;
 
-@media (max-width: 730px) {
-    header nav {
-        display: flex;
-        justify-content: space-around;
-        gap: 10;
-    }
-    header nav a{
-        font-size: 0.6rem;
-    }
-}
-
-@media (max-width: 600px) {
-    header {
-        flex-wrap: wrap;
         justify-content: center;
+        align-items: center;
     }
-
-    header nav {
-        display: flex;
-        justify-content: center;
+    .mobile-menu .nav-item {
+        display: block;
+        padding-top: 1.2rem;
+    }
+    .mobile-menu .nav-link{
+        font-size: 1.15rem;
+    }
+    .mobile-menu .nav-item {
+        margin: 0 15px;
         width: 100%;
-        margin-top: 20px;
     }
-    
-    header nav a{
-        font-size: 0.9rem;
+    .mobile-menu .perfil {
+        display: block;
+        width: 20%;
+        margin-top: 20px;
+        margin-left: 70px;
+    }
+    .mobile-menu .perfil p{
+        margin-top: -50px;
+        font-size: 20px;
+    }
+    .mobile-menu #linha{
+        margin: auto;
+        margin-top: 30px;
+        width: 90%;
+        height: 5px;
+        background-color: #0187a7;
+    }
+    .open {
+        display: block;
     }
 
+}
+@media (max-width: 600px) {
     footer ul{
         font-size: 10px;
-    }
-}
-
-@media (max-width: 480px) {
-    header nav{
-        margin: 0;
-    }
-
-    header nav{
-        display: flex;
-        flex-wrap: wrap;
-        text-align: center;
-        margin-top: 20px;
-        margin-bottom: 20px;
-    }
-
-    header nav a{
-        font-size: 1.5rem;
-        width: 100%;    
     }
 }
