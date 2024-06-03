@@ -1,51 +1,104 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Atividades</title>
+    <title>EcoWaves - EcoVoluntariados</title>
     <link rel="stylesheet" href="../css/catalago_atividades.css">
+    <link rel="stylesheet" href="../css/nav_footer.css">
 </head>
 <body>
     <header>
         <a href="index.html"><img src="../img/nav_footer/logo.png" alt="logo EcoWaves"></a>
         <nav>
             <a href="catalago_atividades.html">ATIVIDADES</a>
-            <a href="#">SOBRE NOS</a>
+            <a href="sobre-nos.html">SOBRE NOS</a>
             <a href="">ONGS</a>
             <a href="portal.html">PORTAL</a>
             <a href="contato.html">CONTATO</a>
         </nav>
     </header>
+
+    <section class="hero">
+        <div class="hero-text">
+            <h1>EcoVoluntariados</h1>
+            <p>Procure as melhores oportunidades e atividades para você.</p>
+        </div>
+    </section>
+
     <main>
-        <section class="banner__section">
-            <div class="banner__frame">
-                <h1>EcoVoluntariados</h1>
-                <div class="banner__subtititle">
-                    <p>Procure as melhores oportunidades e atividades para você.</p>
-                </div>
-            </div>
-        </section>
-        <section class="oportunidades__section">
-            <h2>Oportunidades disponíveis</h2>
-            <div class="pannel__left">
+        <h2><span>|</span>Oportunidades disponíveis</h2>
+        <div class="content">
+            <aside class="categorias">
                 <h3>Categorias</h3>
                 <ul>
-                    <li>EcoTurismo</li>
-                    <li>EcoVoluntariado</li>
+                    <li><span class="dot eco-turismo"></span> EcoTurismo</li>
+                    <li><span class="dot eco-voluntariado"></span> EcoVoluntariado</li>
                 </ul>
-            </div>
-            <div class="pannel__right">
-                <div class="atividade_card">
-                    <img src="img/foto_ecoturismo1.png" alt="">
-                    <h4>Refúgio Azul</h4>
-                    <img src="img/location_on.png" alt=""> <p>São Paulo - Santos</p>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, voluptatem amet a voluptate, quae harum aspernatur dicta modi eveniet, corporis tempore ea numquam reiciendis suscipit praesentium deserunt. Ratione, enim assumenda!</p>
+            </aside>
+            <section class="opportunities">
+                <div class="opportunity">
+                    <img src="../img/catalgo_atividades/foto_ecoturismo1.png" alt="Refúgio Azul">
+                    <div class="info">
+                        <h3>Refúgio Azul</h3> <img src="../img/catalgo_atividades/label_ecoturismo.png" class="label" alt="icone label EcoTurismo">
+                        <p><img src="../img/catalgo_atividades/location_on.png" class="location-icon" alt="Ícone de pin de local"> São Paulo — Santos</p>
+                        <p>Lorem ipsum dolor sit amet consectetur. Egestas faucibus facilisis sagittis turpis. Nulla nec ultrices.</p>
+                        <button>CONFIRA</button>
+                    </div>
                 </div>
-                <div class="atividade_card"></div>
-                <div class="atividade_card"></div>
-            </div>
-        </section>
+                <div class="opportunity">
+                    <img src="../img/catalgo_atividades/foto_ecoturismo2.png" alt="EcoRota das Praias">
+                    <div class="info">
+                        <h3>EcoRota das Praias</h3><img src="../img/catalgo_atividades/label_ecovoluntariado.png" class="label" alt="icone label EcoVoluntariado">
+                        <p><img src="../img/catalgo_atividades/location_on.png" class="location-icon" alt="Ícone de pin de local"> Bertioga</p>
+                        <p>Lorem ipsum dolor sit amet consectetur. Egestas faucibus facilisis sagittis turpis. Nulla nec ultrices.</p>
+                        <button>CONFIRA</button>
+                    </div>
+                </div>
+                <div class="opportunity">
+                    <img src="../img/catalgo_atividades/foto_ecoturismo3.png" alt="Horizonte Verde">
+                    <div class="info">
+                        <h3>Horizonte Verde</h3><img src="../img/catalgo_atividades/label_ecovoluntariado.png" class="label" alt="icone label EcoVoluntariado">
+                        <p><img src="../img/catalgo_atividades/location_on.png" class="location-icon" alt="Ícone de pin de local"> São Paulo — Praia Grande</p>
+                        <p>Lorem ipsum dolor sit amet consectetur. Egestas faucibus facilisis sagittis turpis. Nulla nec ultrices.</p>
+                        <button>CONFIRA</button>
+                    </div>
+                </div>
+            </section>
+        </div>
     </main>
+
+    <footer>
+        <section id="icons">
+            <a href="#"><img src="../img/nav_footer/instagram.png" alt="logo instagram"></a>
+            <a href="#" target="_blank"><img src="../img/nav_footer/github.png" alt="logo github"></a>
+            <a href="#"><img src="../img/nav_footer/facebook.png" alt="logo facebook"></a>
+        </section>
+        <section id="abas">
+            <ul id="footer">
+                <li id="itens-footer" class="opcoes">
+                    <a href="">
+                       ATIVIDADES
+                    </a>
+                </li>
+                <li class="opcoes">
+                    <a href="html/sobre-nos.html"> SOBRE NÓS </a>
+                </li>
+                <li class="opcoes">
+                    <a href=""> ONGS </a>
+                </li>
+                <li class="opcoes">
+                    <a href="html/portal.html"> PORTAL </a>
+                </li>
+                <li class="opcoes">
+                    <a href=""> CONTATO </a>
+                </li>
+            </ul> 
+        </section>
+        <section id="copyright">
+            <img src="../img/nav_footer/Copyright.png" alt="ícone copyright">
+            <p>2024 EcoWaves</p>
+        </section>
+    </footer>
 </body>
 </html>
