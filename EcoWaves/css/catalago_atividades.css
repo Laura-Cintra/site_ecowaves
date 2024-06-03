@@ -67,6 +67,7 @@ h2 > span {
     margin-right: 2rem;
     margin-left: 3rem;
     max-width: 300px;
+    max-height: 200px;
 }
 
 .categorias h3 {
@@ -173,4 +174,38 @@ button {
 
 button:hover {
     background-color: #14434e;
+}
+
+.btn-menu {
+    box-shadow: none;
+}
+
+@media (max-width: 1200px){
+    .content {
+        flex-direction: column;
+    }
+
+    .categorias{
+        margin-bottom: 1rem;
+        margin: 10px auto;
+        width: 400px;
+    }
+
+    .categorias h3 {
+        text-align: center;
+    }
+}
+
+@media (max-width: 1020px) {
+    .hero-text {
+        max-width: 800px;
+        font-size: 25px;
+    }
+}
+
+@media (max-width: 860px) {
+    .hero-text {
+        max-width: calc(100% - 200px);
+        font-size: 20px;
+    }
 }
