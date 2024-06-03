@@ -4,18 +4,20 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>EcoWaves - Fale Conosco</title>
-    <link rel="stylesheet" href="css/contato.css" />
+    <link rel="stylesheet" href="../css/contato.css"/>
+    <link rel="stylesheet" href="../css/nav_footer.css">
   </head>
   <body>
     <header>
-      <img src="img/logo.png" alt="EcoWaves Logo" class="logo" />
+      <a href="index.html"><img src="../img/nav_footer/logo.png" alt="logo EcoWaves"></a>
       <nav>
-        <a href="#">PARCERIAS</a>
-        <a href="#">CONTATO</a>
-        <a href="#">ATIVIDADES</a>
-        <a href="#">PORTAL</a>
+          <a href="catalago_atividades.html">ATIVIDADES</a>
+          <a href="sobre-nos.html">SOBRE NOS</a>
+          <a href="">ONGS</a>
+          <a href="portal.html">PORTAL</a>
+          <a href="contato.html">CONTATO</a>
       </nav>
-    </header>
+  </header>
 
     <main>
       <h1>Fale conosco</h1>
@@ -40,62 +42,36 @@
     </main>
 
     <footer>
-        <div class="footer-icon">
-            <a href="#"><img src="img/instagram_ico.png" alt="Icone instagram" /></a>
-            <a href="#"><img src="img/github_icon.png" alt="Icone Github" /></a>
-            <a href="#"><img src="img/facebook_icon.png" alt="Icone Facebook" /></a>
-        </div>
-      <div class="footer-content">
-        <a href="#">PARCERIAS</a>
-        <a href="#">CONTATO</a>
-        <a href="#">ATIVIDADES</a>
-        <a href="#">PORTAL</a>
-        <p>© 2024 EcoWaves</p>
-      </div>
-    </footer>
+      <section id="icons">
+          <a href="#"><img src="../img/nav_footer/instagram.png" alt="logo instagram"></a>
+          <a href="#" target="_blank"><img src="../img/nav_footer/github.png" alt="logo github"></a>
+          <a href="#"><img src="../img/nav_footer/facebook.png" alt="logo facebook"></a>
+      </section>
+      <section id="abas">
+          <ul id="footer">
+              <li id="itens-footer" class="opcoes">
+                  <a href="">
+                     ATIVIDADES
+                  </a>
+              </li>
+              <li class="opcoes">
+                  <a href="html/sobre-nos.html"> SOBRE NÓS </a>
+              </li>
+              <li class="opcoes">
+                  <a href=""> ONGS </a>
+              </li>
+              <li class="opcoes">
+                  <a href="html/portal.html"> PORTAL </a>
+              </li>
+              <li class="opcoes">
+                  <a href=""> CONTATO </a>
+              </li>
+          </ul> 
+      </section>
+      <section id="copyright">
+          <img src="../img/nav_footer/Copyright.png" alt="ícone copyright">
+          <p>2024 EcoWaves</p>
+      </section>
+  </footer>
   </body>
 </html>
-
-<!-- <!DOCTYPE html>
-<html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contato</title>
-    <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="css/contato.css">
-</head>
-<body>
-    <header>
-        <a href="index.html"><img src="img/logo.png" alt="logo EcoWaves"></a>
-        <nav>
-            <a href="#">PARCERIAS</a>
-            <a href="#">CONTATO</a>
-            <a href="atividades.html">ATIVIDADES</a>
-            <a href="#">PORTAL</a>
-        </nav>
-    </header>
-
-    <main>
-        <h1>Fale conosco</h1>
-        <div class="input__area">
-            <form action="">
-                <label for="id_email">E-mail:</label>
-                <input type="email" name="email" id="id_email" placeholder="email@domain.com">
-
-                <label for="id_nome">Nome:</label>
-                <input type="text" name="nome" id="id_nome">
-                <label for="id_textarea">Como podemos te ajudar?</label>
-
-                <textarea name="textarea" id="id_textarea" placeholder="digite aqui"></textarea>
-                <label for="id_feedback">Está gostando do nosso site?</label>
-
-                <input type="range" name="feedback" id="id_feedback" min="0" max="10">
-
-                <input type="submit" value="ENVIAR" id="btn__enviar">
-            </form>
-        </div>
-    </main>
-    <img id="bg__contato" src="img/fundo_contato.png" alt="Imagem de fundo com uma onda">
-</body>
-</html> -->
