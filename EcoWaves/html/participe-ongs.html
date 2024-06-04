@@ -6,7 +6,8 @@
     <title>EcoWaves - Inscrever Atividade</title>
     <link rel="stylesheet" href="../css/participe-ongs.css">
     <link rel="stylesheet" href="../css/nav_footer.css">
-    <script src="../js/script-menu.js"></script>
+    <script src="../js/script-menu.js" defer></script>
+    <script src="../js/script-participe-ongs.js" defer></script>
 </head>
 <body>
     <header>
@@ -39,46 +40,48 @@
         </div>
     </header>
     <main>
-        <section class="verifica-cnpj">
+        <section class="verifica-cnpj" id="verifica">
             <h1 id="titulo"><span>|</span> Participe </h1>
 
             <h2>Primeiramente, confirme alguns dados:</h2>
             <form action="#" method="get">
                 <label for="id-cnpj">CNPJ: </label>
-                <input type="number" id="id-cnpj" name="cnpj" placeholder="XX. XXX. XXX/0001-XX"><br>
+                <input type="text" id="id-cnpj" name="cnpj" placeholder="XX. XXX. XXX/0001-XX" maxlength="18"><br>
                 <label for="id-rs">Razão Social:</label>
                 <input type="text" id="id-rs" name="razao-social" placeholder="Digite sua razão social"><br>
                 <label for="id-email">E-mail:</label>
                 <input type="email" id="id-email" name="email" placeholder="email@domain.com"><br>
-                <input type="submit" value="ENVIAR" class="btn-enviar">
+                <input type="submit" value="ENVIAR" class="btn-enviar" id="consulta">
             </form>
         </section>
         <article class="inscricao-atividade">
-            <h2 id="subtitulo"><span>|</span> Nos conte mais sobre sua atividade: </h2>
-            <form action="#" method="get">
-                <label for="id-nome">Como quer chama-la? </label>
-                <input type="text" id="id-nome" name="titulo" placeholder="Digite um título"><br>
-                <div class="container">
-                    <label for="id-descricao" id="textarea">Faça uma breve descrição:</label>
-                    <textarea name="descricao" id="id-descricao" placeholder="Digite um texto"></textarea>
-                </div>
-                <label for="id-data">Qual a data?</label>
-                <input type="date" id="id-data" name="titulo" placeholder="Digite um título"><br>
-                <label for="id-hora">Qual o horário?</label>
-                <input type="time" id="id-hora" name="titulo" placeholder="Digite um título">
-                <input type="time" id="id-hora" name="titulo" placeholder="Digite um título"><br>
-                <div class="container">
-                    <label for="id-atividades" id="textarea">Quais as atividades e seus respectivos horários?</label>
-                    <textarea name="atividades" id="id-atividades" placeholder="Digite um texto"></textarea>
-                </div>
-                <label for="id-imagem">Alguma imagem que queira compartilhar?</label>
-                <input type="file" name="img" id="id-imagem">
-                <div class="container">
-                    <label for="id-sobre" id="textarea">Por fim, nos conte um pouco sobre sua instituição:</label>
-                    <textarea name="sobre" id="id-sobre" placeholder="Digite um texto"></textarea>
-                </div>
-                <input type="submit" value="ENVIAR" class="btn-enviar">
-            </form>
+            <div id="boxDetalhes"> 
+                <h2 id="subtitulo"><span>|</span> Nos conte mais sobre sua atividade: </h2>
+                <form action="#" method="get">
+                    <label for="id-nome">Como quer chama-la? </label>
+                    <input type="text" id="id-nome" name="titulo" placeholder="Digite um título"><br>
+                    <div class="container">
+                        <label for="id-descricao" id="textarea">Faça uma breve descrição:</label>
+                        <textarea name="descricao" id="id-descricao" placeholder="Digite um texto"></textarea>
+                    </div>
+                    <label for="id-data">Qual a data?</label>
+                    <input type="date" id="id-data" name="data"><br>
+                    <label for="id-hora">Qual o horário?</label>
+                    <input type="time" id="id-hora" name="hr1">
+                    <input type="time" id="id-hora" name="hr2"><br>
+                    <div class="container">
+                        <label for="id-atividades" id="textarea">Quais as atividades e seus respectivos horários?</label>
+                        <textarea name="atividades" id="id-atividades" placeholder="Digite um texto"></textarea>
+                    </div>
+                    <label for="id-imagem">Alguma imagem que queira compartilhar?</label>
+                    <input type="file" name="img" id="id-imagem">
+                    <div class="container">
+                        <label for="id-sobre" id="textarea">Por fim, nos conte um pouco sobre sua instituição:</label>
+                        <textarea name="sobre" id="id-sobre" placeholder="Digite um texto"></textarea>
+                    </div>
+                    <input type="submit" value="ENVIAR" class="btn-enviar" id="dados">
+                </form>
+            </div>
         </article>
     </main>
     <footer>
