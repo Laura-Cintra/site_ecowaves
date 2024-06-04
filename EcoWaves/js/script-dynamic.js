@@ -1,7 +1,7 @@
 const opcao = sessionStorage.getItem('opcaoEscolhida')
 
 if(opcao == "1"){
-    document.querySelector("#titulo").innerHTML = "Refúgio Azul"
+    document.querySelector("#titulo").innerHTML = "<span>|</span> Refúgio Azul"
     document.querySelector("#localizacao").innerHTML = "Rua não sei"
     document.querySelector("#img-principal").src = "../img/ongs/ondas-do-mar 1.png"
     document.querySelector("#pr1").innerHTML = "fazer faxina"
