@@ -13,14 +13,33 @@ main {
     margin: 0 auto;
 }
 
-h1 > span{
+#titulo > span{
     color: #186B8C;
+    font-size: 1em;
 }
 
-.hero h1 {
-    font-size: 2em;
-    margin: 10px 0;
+.top-text {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
+
+.top-text a {
+    margin-right: 1rem;
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+}
+
+.top-text-icons img {
+    width: 28px;
+    margin-right: 1rem;
+    cursor: pointer;
+}
+
 
 .hero {
     text-align: center;
