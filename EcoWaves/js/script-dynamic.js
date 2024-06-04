@@ -29,8 +29,7 @@ if (opcao == "1") {
   titulo.innerHTML = "EcoSurf";
   document.querySelector("#localizacao").innerHTML =
     "Rua Osmar Goncalves Nina, 49 JARDIM BOPIRANGA ITANHAEM - SP";
-  document.querySelector("#img-principal").src =
-    "../img/ongs/ondas-do-mar 1.png";
+  document.querySelector("#img-principal").src = "../img/ongs/ondas-do-mar 1.png";
   document.querySelector("#pr1").innerHTML = "fazer faxina";
   document.querySelector("#hr1").innerHTML = "07h às 10h";
   document.querySelector("#pr2").innerHTML = "";

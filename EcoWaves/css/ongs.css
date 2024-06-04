@@ -41,6 +41,10 @@ main{
     padding-left: 40px;
 }
 
+.ong-logo {
+    border-radius: 50px;
+}
+
 #primeiro{
     margin-left: 40px;
 }
