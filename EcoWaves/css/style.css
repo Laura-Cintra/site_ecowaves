@@ -7,6 +7,10 @@ body {
     box-sizing: border-box;
 }
 
+main img{
+    border-radius: 5px;
+}
+
 .hero {
     background: url('../img/home/fundo.png');
     background-size: cover;
@@ -37,12 +41,20 @@ body {
 
 .hero-content button {
     background-color: #06303A;
-    color: #fff;
     border: none;
     margin-top: 20px;
     padding: 15px 25px;
     border-radius: 10px;
-    font-size: 1em;
+    font-size: 1.2em;
+}
+
+.hero-content button a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.hero-content button:hover{
+    background-color: #186B8C;
 }
 
 .main-content {
@@ -66,15 +78,16 @@ body {
 }
 
 .container img {
-    width: 900px;
+    width: 600px;
     margin-right: 20px;
 }
 
 .section1 p{
     text-align: justify;
-    width: 400px;
+    width: 550px;
     margin: 0 auto;
-    font-size: 2rem;
+    font-size: 1.7rem;
+    font-weight: 400;
     font-family: "EB Garamond", serif;
 }
 
@@ -85,7 +98,7 @@ body {
 
 .container-barra{
     display: flex;
-    width: 500px;
+    width: 550px;
     margin: 0 auto;
 }
 
@@ -93,7 +106,7 @@ body {
     background-color: #06303A;
     border-radius: 20px;
     width: 20px;
-    height: 175px;
+    height: 120px;
     margin-top: 50px;
     margin-right: 35px;
 }
@@ -132,6 +145,10 @@ body {
     font-family: "Kodchasan", sans-serif;
     font-size: 2rem;
     margin: 0;
+}
+
+.text-container h4 span{
+    color: #186B8C;
 }
 
 .description-section {
@@ -248,6 +265,10 @@ body {
     .description img {
         margin: 0 auto;
     }
+
+    .text-container h4{
+        margin-top: 20px;
+    }
 }
 
 @media (max-width: 730px) {
@@ -294,8 +315,8 @@ body {
         font-size: 1em;
     }
     .hero-content button {
-        padding: 8px 16px;
-        font-size: 0.9em;
+        font-size: 1em;
+        font-weight: 500;
     }
     .section1 h2 {
         font-size: 1.5em;

@@ -7,6 +7,12 @@ body {
     box-sizing: border-box;
 }
 
+main {
+    padding: 20px;
+    width: 95%;
+    margin: 0 auto;
+}
+
 h1 > span{
     color: #186B8C;
 }
