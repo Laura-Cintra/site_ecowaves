@@ -87,7 +87,9 @@ textarea{
 #id-hora{
     width: 150px;
 }
-
+#boxDetalhes{
+    display: none;
+}
 /* responsivilidade */
 
 @media screen and (max-width:780px) {
