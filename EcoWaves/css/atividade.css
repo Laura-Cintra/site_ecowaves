@@ -60,6 +60,23 @@ main {
     margin-bottom: 20px;
 }
 
+.organizarProgramacao{
+    justify-content: center;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.organizarProgramacao .hrTxt{
+    color: #005f6b;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+.organizarProgramacao .txt{
+    color: black;
+    font-size: 1.05rem;
+}
+
+
 .programacao_icons {
     display: flex;
     flex-wrap: wrap;
@@ -108,6 +125,10 @@ main {
     margin: 0 auto;
     background-color: rgba(0, 0, 0, 0.5);
     border-radius: 50px;
+}
+
+#logo-ong {
+    max-width: 320px;
 }
 
 .ong_container {
