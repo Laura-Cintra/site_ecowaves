@@ -113,7 +113,7 @@ h2 > span {
     margin-bottom: 20px;
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
     overflow: hidden;
-    max-width: fit-content;
+    max-width: calc(100% - 200px);
 }
 
 .opportunity img {
