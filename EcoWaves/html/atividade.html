@@ -1,151 +1,224 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Ecoturismo</title>
-    <link rel="stylesheet" href="../css/atividade.css">
-    <link rel="stylesheet" href="../css/nav_footer.css">
+    <link rel="stylesheet" href="../css/atividade.css" />
+    <link rel="stylesheet" href="../css/nav_footer.css" />
     <script src="../js/script-menu.js" defer></script>
     <script src="../js/script-dynamic.js" defer></script>
     <script src="../js/favorita.js" defer></script>
-</head>
-<body>
+  </head>
+  <body>
     <header>
-        <nav class="nav-bar">
-            <div class="logo">
-                <a href="../index.html"><img src="../img/nav_footer/logo.png" alt=""></a>
-            </div>
-            <div class="nav-list">
-                <ul>
-                    <li class="nav-item"><a href="catalago_atividades.html" class="nav-link">ATIVIDADES</a></li>
-                    <li class="nav-item"><a href="sobre-nos.html" class="nav-link">SOBRE NOS</a></li>
-                    <li class="nav-item"><a href="ongs.html" class="nav-link"> ONGS</a></li>
-                    <li class="nav-item"><a href="portal.html" class="nav-link"> PORTAL</a></li>
-                    <li class="nav-item"><a href="contato.html" class="nav-link"> CONTATO</a></li>
-                </ul>
-            </div>
-
-            <div class="mobile-menu-icon">
-                <button onclick="menuShow()"><img class="icon" src="../img/nav_footer/icon-bars.svg" alt=""></button>
-            </div>
-        </nav>
-        <div class="mobile-menu">
-            <ul>
-                <li class="nav-item"><a href="catalago_atividades.html" class="nav-link">ATIVIDADES</a></li>
-                <li class="nav-item"><a href="sobre-nos.html" class="nav-link">SOBRE NOS</a></li>
-                <li class="nav-item"><a href="ongs.html" class="nav-link"> ONGS</a></li>
-                <li class="nav-item"><a href="portal.html" class="nav-link"> PORTAL</a></li>
-                <li class="nav-item"><a href="contato.html" class="nav-link"> CONTATO</a></li>
-            </ul>
+      <nav class="nav-bar">
+        <div class="logo">
+          <a href="../index.html"
+            ><img src="../img/nav_footer/logo.png" alt=""
+          /></a>
         </div>
+        <div class="nav-list">
+          <ul>
+            <li class="nav-item">
+              <a href="catalago_atividades.html" class="nav-link">ATIVIDADES</a>
+            </li>
+            <li class="nav-item">
+              <a href="sobre-nos.html" class="nav-link">SOBRE NOS</a>
+            </li>
+            <li class="nav-item">
+              <a href="ongs.html" class="nav-link"> ONGS</a>
+            </li>
+            <li class="nav-item">
+              <a href="portal.html" class="nav-link"> PORTAL</a>
+            </li>
+            <li class="nav-item">
+              <a href="contato.html" class="nav-link"> CONTATO</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="mobile-menu-icon">
+          <button onclick="menuShow()">
+            <img class="icon" src="../img/nav_footer/icon-bars.svg" alt="" />
+          </button>
+        </div>
+      </nav>
+      <div class="mobile-menu">
+        <ul>
+          <li class="nav-item">
+            <a href="catalago_atividades.html" class="nav-link">ATIVIDADES</a>
+          </li>
+          <li class="nav-item">
+            <a href="sobre-nos.html" class="nav-link">SOBRE NOS</a>
+          </li>
+          <li class="nav-item">
+            <a href="ongs.html" class="nav-link"> ONGS</a>
+          </li>
+          <li class="nav-item">
+            <a href="portal.html" class="nav-link"> PORTAL</a>
+          </li>
+          <li class="nav-item">
+            <a href="contato.html" class="nav-link"> CONTATO</a>
+          </li>
+        </ul>
+      </div>
     </header>
     <main>
-        <div class="top-text">
-            <a href="catalago_atividades.html"><img src="../img/atividade/seta_esquerda_preta.png" alt="ícone para voltar a página de atividades"></a>
-            <div class="top-text-icons">
-                <img id="star-icon" src="../img/atividade/star.png" alt="ícone de favorito">
-                <img src="../img/atividade/share.png" alt="ícone de compartilhar">
-            </div>
+      <div class="top-text">
+        <a href="catalago_atividades.html"
+          ><img
+            src="../img/atividade/seta_esquerda_preta.png"
+            alt="ícone para voltar a página de atividades"
+        /></a>
+        <div class="top-text-icons">
+          <img
+            id="star-icon"
+            src="../img/atividade/star.png"
+            alt="ícone de favorito"
+          />
+          <img src="../img/atividade/share.png" alt="ícone de compartilhar" />
         </div>
-        <h1 id="titulo"><span>|</span> Ecorota das Praias</h1>
-        <p id="localizacao">Matinga, Bertioga - SP, 11250-000. Veja no mapa.</p>
-        <section class="hero">
-            <img src="../img/atividade/beach.jpg" alt="Ecorota das Praias" id="img-principal">
-        </section>
+      </div>
+      <h1 id="titulo"><span>|</span> Ecorota das Praias</h1>
+      <p id="localizacao">Matinga, Bertioga - SP, 11250-000. Veja no mapa.</p>
+      <section class="hero">
+        <img
+          src="../img/atividade/beach.jpg"
+          alt="Ecorota das Praias"
+          id="img-principal"
+        />
+      </section>
 
-        <section class="programacao">
-            <h2>Programação:</h2>
-            <div class="programacao_icons">
-                <div>
-                    <img src="../img/atividade/clock.png" alt="Broom Icon">
-                    <p id="pr1"><span id="hr1">07h às 10h</span><br>Chegar ao local e fazer limpeza da praia.</p>
-                </div>
-                <div>
-                    <img src="../img/atividade/lunch.png" alt="Lunch Icon">
-                    <p id="pr2"><span id="hr2">11h às 13h</span><br>Pausa para refeição.</p>
-                </div>
-                <div>
-                    <img src="../img/atividade/diving.png" alt="Diving Icon">
-                    <p id="pr3"><span id="hr3">13h às 14h</span><br>Mergulho guiado.</p>
-                </div>
-                <div>
-                    <img src="../img/atividade/return.png" alt="Return Icon">
-                    <p id="pr4"><span id="hr4">14h às 15h</span><br>Retorno do ecoturismo.</p>
-                </div>
+      <section class="programacao">
+        <h2>Programação:</h2>
+        <div class="programacao_icons">
+          <div>
+            <img src="../img/atividade/clock.png" alt="Broom Icon" />
+            <p id="pr1">
+              <span id="hr1">07h às 10h</span><br />Chegar ao local e fazer
+              limpeza da praia.
+            </p>
+          </div>
+          <div>
+            <img src="../img/atividade/lunch.png" alt="Lunch Icon" />
+            <p id="pr2">
+              <span id="hr2">11h às 13h</span><br />Pausa para refeição.
+            </p>
+          </div>
+          <div>
+            <img src="../img/atividade/diving.png" alt="Diving Icon" />
+            <p id="pr3">
+              <span id="hr3">13h às 14h</span><br />Mergulho guiado.
+            </p>
+          </div>
+          <div>
+            <img src="../img/atividade/return.png" alt="Return Icon" />
+            <p id="pr4">
+              <span id="hr4">14h às 15h</span><br />Retorno do ecoturismo.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="descricao">
+        <h2>Descrição:</h2>
+        <p id="descricao">
+          Lorem ipsum dolor sit amet consectetur. Duis laoreet consectetur quis
+          diam nec risus pellentesque ullamcorper. Porttitor interdum suscipit
+          est viverra vitae eleifend quis pharetra pellentesque. Faucibus augue
+          mauris iaculis a odio turpis ut nisi. At eu cras quisque nunc lacus
+          placerat tempus. Dignissim purus adipiscing viverra tortor est ipsum.
+        </p>
+      </section>
+
+      <section class="parcerias">
+        <h2>Parcerias:</h2>
+        <p>
+          A EcoWave tem parceria com diversas empresas que estão preocupadas com
+          o cuidado e a melhora dos oceanos. Elas proporcionam experiências
+          completas e mais acessíveis para nossos usuários. Nós e nossas
+          parceiras queremos estar lado a lado com as ONGS para um mundo melhor.
+        </p>
+        <div class="partners">
+          <img
+            src="../img/atividade/pousada1.png"
+            alt="Pousada Cordoba SP"
+            id="parc1"
+          />
+          <img
+            src="../img/atividade/pousada2.png"
+            alt="Recanto da Praia"
+            id="parc2"
+          />
+          <img
+            src="../img/atividade/pousada3.png"
+            alt="Pé na Areia Hotel Pousada"
+            id="parc3"
+          />
+        </div>
+      </section>
+
+      <section class="ong">
+        <h2>Sobre a Ong que está ofertando:</h2>
+        <p>As ONG's estão ao nosso lado para melhorarmos os oceanos.</p>
+        <div class="ong_container">
+          <div class="ong_conteudo">
+            <img
+              src=""
+              alt="logo ong parceira"
+              id="logo-ong"
+            />
+            <div class="text_container">
+              <h3 id="nome-ong">Desengarrafando Mentes</h3>
+              <p id="descricao-ong">
+                O Projeto Desengarrafando Mentes visa promover o desenvolvimento
+                humano através de diversas ferramentas, como arte, educação,
+                esporte, cultura e sustentabilidade.
+              </p>
             </div>
-        </section>
-
-        <section class="descricao">
-            <h2>Descrição:</h2>
-            <p id="descricao">Lorem ipsum dolor sit amet consectetur. Duis laoreet consectetur quis diam nec risus pellentesque
-                ullamcorper. Porttitor interdum suscipit est viverra vitae eleifend quis pharetra pellentesque. Faucibus
-                augue mauris iaculis a odio turpis ut nisi. At eu cras quisque nunc lacus placerat tempus. Dignissim
-                purus adipiscing viverra tortor est ipsum.</p>
-        </section>
-
-        <section class="parcerias">
-            <h2>Parcerias:</h2>
-            <p>A EcoWave tem parceria com diversas empresas que estão preocupadas com o cuidado e a melhora dos oceanos.
-                Elas proporcionam experiências completas e mais acessíveis para nossos usuários. Nós e nossas parceiras
-                queremos estar lado a lado com as ONGS para um mundo melhor.</p>
-            <div class="partners">
-                <img src="../img/atividade/pousada1.png" alt="Pousada Cordoba SP" id="parc1">
-                <img src="../img/atividade/pousada2.png" alt="Recanto da Praia" id="parc2">
-                <img src="../img/atividade/pousada3.png" alt="Pé na Areia Hotel Pousada" id="parc3">
-            </div>
-        </section>
-
-        <section class="ong">
-            <h2>Sobre a Ong que está ofertando:</h2>
-            <p>As ONG's estão ao nosso lado para melhorarmos os oceanos.</p>
-            <div class="ong_container">
-                <div class="ong_conteudo">
-                    <img src="../img/atividade/desengarrafando.jpg" alt="lodo ong parceira" id="logo-ong">
-                    <div class="text_container">
-                        <h3 id="nome-ong">Desengarrafando Mentes</h3>
-                        <p id="descricao-ong">O Projeto Desengarrafando Mentes visa promover o desenvolvimento humano através de diversas
-                            ferramentas, como arte, educação, esporte, cultura e sustentabilidade.
-                        </p>
-                    </div>
-                </div>
-                <div class="buttonclass">
-                    <button>INSCREVA-SE</button>
-                </div>
-            </div>
-        </section>
+          </div>
+          <div class="buttonclass">
+            <button>INSCREVA-SE</button>
+          </div>
+        </div>
+      </section>
     </main>
     <footer>
-        <section id="icons">
-            <a href="rede_social.html"><img src="../img/nav_footer/instagram.png" alt="logo instagram"></a>
-            <a href="https://github.com/EcoWaves/site_ecowaves" target="_blank"><img src="../img/nav_footer/github.png" alt="logo github"></a>
-            <a href="rede_social.html"><img src="../img/nav_footer/facebook.png" alt="logo facebook"></a>
-        </section>
-        <section id="abas">
-            <ul id="footer">
-                <li id="itens-footer" class="opcoes">
-                    <a href="catalago_atividades.html">
-                       ATIVIDADES
-                    </a>
-                </li>
-                <li class="opcoes">
-                    <a href="sobre-nos.html"> SOBRE NÓS </a>
-                </li>
-                <li class="opcoes">
-                    <a href="ongs.html"> ONGS </a>
-                </li>
-                <li class="opcoes">
-                    <a href="portal.html"> PORTAL </a>
-                </li>
-                <li class="opcoes">
-                    <a href="contato.html"> CONTATO </a>
-                </li>
-            </ul> 
-        </section>
-        <section id="copyright">
-            <img src="../img/nav_footer/Copyright.png" alt="ícone copyright">
-            <p>2024 EcoWaves</p>
-        </section>
+      <section id="icons">
+        <a href="rede_social.html"
+          ><img src="../img/nav_footer/instagram.png" alt="logo instagram"
+        /></a>
+        <a href="https://github.com/EcoWaves/site_ecowaves" target="_blank"
+          ><img src="../img/nav_footer/github.png" alt="logo github"
+        /></a>
+        <a href="rede_social.html"
+          ><img src="../img/nav_footer/facebook.png" alt="logo facebook"
+        /></a>
+      </section>
+      <section id="abas">
+        <ul id="footer">
+          <li id="itens-footer" class="opcoes">
+            <a href="catalago_atividades.html"> ATIVIDADES </a>
+          </li>
+          <li class="opcoes">
+            <a href="sobre-nos.html"> SOBRE NÓS </a>
+          </li>
+          <li class="opcoes">
+            <a href="ongs.html"> ONGS </a>
+          </li>
+          <li class="opcoes">
+            <a href="portal.html"> PORTAL </a>
+          </li>
+          <li class="opcoes">
+            <a href="contato.html"> CONTATO </a>
+          </li>
+        </ul>
+      </section>
+      <section id="copyright">
+        <img src="../img/nav_footer/Copyright.png" alt="ícone copyright" />
+        <p>2024 EcoWaves</p>
+      </section>
     </footer>
-</body>
+  </body>
 </html>
