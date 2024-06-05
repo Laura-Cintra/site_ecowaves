@@ -33,7 +33,7 @@ main{
 
 .ongs{
     max-width: 505px;
-    max-height: 466px;
+    max-height: fit-content;
     background-color: #fff;
     border-radius: 20px;
     box-shadow: 15px 8px 2px #06303A;
