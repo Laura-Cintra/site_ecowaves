@@ -9,8 +9,8 @@ body {
 
 main {
     padding: 20px;
-    width: 95%;
-    margin: 0 auto;
+    width: 90%;
+    margin: 30px auto;
 }
 
 #titulo > span{
@@ -62,7 +62,7 @@ main {
 
 .organizarProgramacao{
     justify-content: center;
-    margin-top: 10px;
+    align-items: center;   
     display: flex;
     flex-direction: column;
 }
@@ -83,6 +83,7 @@ main {
     justify-content: space-around;
     gap: 20px;
     text-align: center;
+    align-items: center;
 }
 
 .programacao_icons div {
