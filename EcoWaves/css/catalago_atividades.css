@@ -24,19 +24,17 @@ body {
 }
 
 .hero-text {
-    background: rgba(146, 146, 146, 0.514);
+    background-color: rgba(0,0,0,0.5);
     padding: 20px;
     border-radius: 10px;
     font-size: 30px;
 }
 
-.hero-text h1{
-    text-shadow: 1px 2px 3px black;
-}
-
 .hero-text p {
-    background-color: orangered;
+    background-color: #186B8C;
     padding: 10px 40px;
+    font-size: 1.6rem;
+    border-radius: 5px;
 }
 
 main {
