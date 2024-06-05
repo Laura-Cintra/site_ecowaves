@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>EcoWaves - Inscricao</title>
-    <link rel="stylesheet" href="../css/incricao-usuarios.css">
+    <link rel="stylesheet" href="../css/inscricao-usuarios.css">
     <link rel="stylesheet" href="../css/nav_footer.css">
     <script src="../js/script-menu.js" defer></script>
     <script src="../js/script-inscrever-atividade.js" defer></script>
@@ -42,13 +42,13 @@
     <main>
         <section class="inscrever-atividade" id="inscrever">
             <h1 id="titulo"><span>|</span> Increva-se na atividade </h1>
-            <form action="#" method="get">
+            <form action="#" method="get" id="form-inscrever">
                 <label for="id-email">E-mail:</label>
                 <input type="email" id="id-email" name="email" placeholder="email@domain.com"><br>
                 <label for="id-nome">Nome:</label>
                 <input type="text" id="id-nome" name="razao-social" placeholder="Digite seu nome"><br>
                 <div id="check">
-                    <input type="checkbox" name="termos" id="id-termos" required>
+                    <input type="checkbox" name="termos" id="id-termos" >
                     <label for="id-termos" id="label-termos">Eu li e concordo com os <a href="../img/ongs/Termo de Uso - EcoWaves.pdf" target="_blank">TERMOS DE USO</a></label>
                 </div>
                 <input type="submit" value="ENVIAR" class="btn-enviar" id="inscrever">
@@ -66,9 +66,7 @@
         <section id="abas">
             <ul id="footer">
                 <li id="itens-footer" class="opcoes">
-                    <a href="catalago_atividades.html">
-                       ATIVIDADES
-                    </a>
+                    <a href="catalago_atividades.html">ATIVIDADES</a>
                 </li>
                 <li class="opcoes">
                     <a href="sobre-nos.html"> SOBRE NÓS </a>
