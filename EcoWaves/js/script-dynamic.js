@@ -25,7 +25,7 @@ if (opcao == "1") {
   document.querySelector("#descricao-ong").innerHTML =
     "Refúgio Água Azul, fica localizado ao lado do aquário encantado e reino com aproximadamente 54 km de Nobres Mato Grosso, no local tem flutuação de 800 metros em superfície, incluso equipamentos e guia local, tem o tirolesa de 66 metros que cai direto no balneário que depois da flutuação e tirolesa o turista pode fica no balneário, o lugar é uma mata fechada com um cerrado maravilhoso que o turista pode aproveitar com muita sombra.";
 } else if (opcao == "3") {
-  document.querySelector('title').innerHTML = "EcoWaves - EcoSurf"
+  document.querySelector('title').innerHTML = "EcoWaves - Refúgio Azul"
   titulo.innerHTML = "EcoSurf";
   document.querySelector("#localizacao").innerHTML =
     "Rua Osmar Goncalves Nina, 49 JARDIM BOPIRANGA ITANHAEM - SP";
