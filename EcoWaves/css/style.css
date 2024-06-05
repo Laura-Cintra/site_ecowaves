@@ -40,7 +40,7 @@ main img{
 }
 
 .hero-content button {
-    background-color: #06303A;
+    background-color: #186B8C;
     border: none;
     margin-top: 20px;
     padding: 15px 25px;
@@ -54,7 +54,7 @@ main img{
 }
 
 .hero-content button:hover{
-    background-color: #186B8C;
+    background-color: #06303A;
 }
 
 .main-content {
