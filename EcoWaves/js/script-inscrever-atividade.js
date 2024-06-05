@@ -1,4 +1,6 @@
-let btnInscrever = document.querySelector("#inscrever")
+let btnInscrever = document.querySelector(".btn-enviar")
+let checkbox = document.querySelector("#id-termos");
+let form = document.querySelector("#form-inscrever")
 
 function isValidEmail(email) {
     // Regex para validar o e-mail
@@ -8,14 +10,20 @@ function isValidEmail(email) {
 
 btnInscrever.addEventListener("click", ()=>{
     email = document.querySelector("#id-email").value
-    if((email == " ") || (document.querySelector("#id-nome").value == "")){
+    if((document.querySelector("#id-nome").value == "") || (email == "")){
         alert("Campo(s) em branco! Preencha-os, por favor.")
     }else{
         if (isValidEmail(email)) {
-           alert("VC TA REGISTRADO")
+            form.addEventListener("submit", function(event) {
+                if (!checkbox.checked) {
+                    alert("Você deve aceitar os termos de uso para continuar.");
+                }else{
+                    alert(`Já recebemos sua inscrição, agradecemos por ajudar os nossos oceanos! Fique atento no e-mail: "${email}", que te enviaremos mais informações.`)
+                }
+            });
         } else {
             alert("Por favor, insira um e-mail válido.");
         }
     }
-   
 })
+
