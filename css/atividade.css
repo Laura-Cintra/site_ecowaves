@@ -192,7 +192,7 @@ main {
     width: 30%;
 }
 
-.buttonclass button {
+.buttonclass button{
     background: #186B8C;
     color: white;
     border-radius: 10px;
@@ -201,6 +201,15 @@ main {
     padding-right: 20%;
     padding-left: 20%;
     font-size: 1.3rem;
+}
+
+.buttonclass button a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.buttonclass button a:hover{
+    color: #0a3749;
 }
 
 @media (max-width: 1250px) {
